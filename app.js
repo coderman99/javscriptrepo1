@@ -69,18 +69,17 @@ let strangers = [
 ];
 
 // The checkAge for loop
-
-
-
+for(i = 0; i < strangers.length; i++){
+    if(strangers[i].age < 21){
+        alert("Sorry " + strangers[i].name + " you are not old enough to visit.");
+    }
+};
 
 // The getLengthFunction
-function getLength(word){
-    let word = ""
-    for(let char of word){
-        
-    }
+function getLength(str){
+    for(i = 0; i < str.length; i++){
+        console.log(str[i]);
+    };
 }
-
-
 
 
