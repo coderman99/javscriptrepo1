@@ -77,9 +77,17 @@ for(i = 0; i < strangers.length; i++){
 
 // The getLengthFunction
 function getLength(str){
-    for(i = 0; i < str.length; i++){
-        console.log(str[i]);
-    };
+    return str.length
 }
+// Prints out number of characters
+let phrase = getLength("Hello World");
+console.log(phrase);
+
+// Finds odd or even
+if(phrase % 2 === 0){
+    console.log("The world is nice and even");
+ } else {
+        console.log("The world is odd")
+    }
 
 
